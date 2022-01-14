@@ -1,0 +1,49 @@
+<!DOCTYPE html><html lang="en"><head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400..800&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,100..900&amp;display=swap" rel="stylesheet">
+    
+    
+    <script src="p5.js"></script>
+    <script src="p5.sound.min.js"></script>
+
+    <script src="ml5.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8">
+    
+    
+      </head><body>
+        
+         
+     <div id="variable-text" spellcheck="false" contenteditable="true">Interactive Typography </div>
+    <div id="backgroundcolour" style="background-color:#FFFFFF;">
+  </div>
+    <div id="cursor1"></div>
+    <button id="Sound" onclick="apiAsk()">Sound</button>
+    <button id="Motion" onclick="apiAsk()">Motion</button>
+    <button id="Mouse" onclick="apiAsk()">Mouse</button>
+  <div id="color-picker-wrapper">
+   <input id="color-picker" type="color" value="#FFFFFF">
+</div>
+      <div id="color-picker-wrapper2">
+   <input id="color-picker2" type="color" value="#000000">
+</div>
+<div id="downarrow">↓</div>
+
+        
+
+      <div id="information">
+  <h1>How to use:</h1>
+  <p>There are 3 buttons to interact with at the top of the page,<br>each with their own unique function:<br>
+    </p><li><strong>Sound → </strong>Typeface reacts to <strong>Audio Input</strong> (Volume)</li><br>
+        <li><strong>Mouse → </strong>Typeface moves with the <strong>Cursor Position</strong> on the page</li><br>
+        <li><strong>Motion → </strong>Typeface tracks your <strong>Face Movement</strong> (Left, Right, Up + Down)</li><p>Choose the <strong>Background Colour</strong> with ◯
+        <br></p><p>Choose the <strong>Text Colour</strong> with ⬤
+        </p><p></p></div>
+  
+    <script src="sketch.js"></script>        
+  
+
+  
+</body></html>
